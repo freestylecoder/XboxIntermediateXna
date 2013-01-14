@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbox360DeepDive", "Xbox360DeepDive\Xbox360DeepDive.csproj", "{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83D5A0CB-32FF-4010-9CA0-31309AEC3D95} = {83D5A0CB-32FF-4010-9CA0-31309AEC3D95}
+	EndProjectSection
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Xbox360DeepDiveContent", "Xbox360DeepDiveContent\Xbox360DeepDiveContent.contentproj", "{46386AAE-5B04-4815-BA4F-36E2134EE71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxGameComponents", "..\GameComponents\Xbox\XboxGameComponents.csproj", "{83D5A0CB-32FF-4010-9CA0-31309AEC3D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}.Debug|Xbox 360.Deploy.0 = Debug|Xbox 360
+		{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{155BA4B2-B5F7-4D32-93A1-0F181EF9E817}.Release|Xbox 360.Deploy.0 = Release|Xbox 360
+		{46386AAE-5B04-4815-BA4F-36E2134EE71B}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{46386AAE-5B04-4815-BA4F-36E2134EE71B}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{83D5A0CB-32FF-4010-9CA0-31309AEC3D95}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{83D5A0CB-32FF-4010-9CA0-31309AEC3D95}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{83D5A0CB-32FF-4010-9CA0-31309AEC3D95}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{83D5A0CB-32FF-4010-9CA0-31309AEC3D95}.Release|Xbox 360.Build.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
